@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.facet.widgets.source"
+         label="EMF Facet's customizable widgets (Incubation) Source"
+         version="0.4.2.201412301440"
+         provider-name="Eclipse Modeling Project">
+   <description url="http://www.eclipse.org/modeling/emft/facet/">
+      EMF Facet provides non-intrusive mechanisms to add new features (types, attributes, references and operations) to an EMF meta-model and to customize displaying of the EObjects (icons, labels, etc.). This feature contains a set of customizable widgets.
+   </description>
+   <copyright>
+      Copyright (c) 2010, 2011 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+   <license url="%licenseURL">
+      %license
+   </license>
+   <plugin id="org.eclipse.emf.facet.widgets.source" download-size="14" install-size="44"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.celleditors.source" download-size="99"
+           install-size="284"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.celleditors.ecore.source" download-size="50"
+           install-size="106"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.celleditors.ecore.tests.samplemm.source"
+           download-size="35"
+           install-size="185"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.celleditors.edit.source" download-size="20"
+           install-size="51"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.celleditors.editor.source" download-size="29"
+           install-size="111"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.infra.common.core.source" download-size="96"
+           install-size="281"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.source" download-size="177"
+           install-size="556"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.instance.source" download-size="98"
+           install-size="409"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.tableconfiguration.source"
+           download-size="43"
+           install-size="137"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.tableconfiguration.edit.source"
+           download-size="21"
+           install-size="54"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.tableconfiguration.editor.source"
+           download-size="49"
+           install-size="197"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.workbench.source" download-size="31"
+           install-size="70"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.examples.ecore.source"
+           download-size="25"
+           install-size="44"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.doc.source" download-size="6"
+           install-size="10"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.nattable.instance.edit.source"
+           download-size="56"
+           install-size="176"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.table.metamodel.source" download-size="81"
+           install-size="339"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.table.ui.source" download-size="161"
+           install-size="484"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.table.ui.nattable.source" download-size="79"
+           install-size="227"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.table.ui.workbench.source" download-size="33"
+           install-size="76"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.table.metamodel.edit.source"
+           download-size="35"
+           install-size="103"
+           version="0.4.2.201412301440"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.widgets.table.doc.source" download-size="6"
+           install-size="10"
+           version="0.4.2.201412301440"/>
+</feature>

@@ -1,0 +1,30 @@
+!SESSION 2015-07-05 16:33:24.884 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_CL
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -application Editor_MWD.diagram/
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.modeling.product -application Editor_MWD.diagram/
+
+!ENTRY org.eclipse.jdt.annotation 2 0 2015-07-05 16:33:28.446
+!MESSAGE Could not resolve module: org.eclipse.jdt.annotation [449]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2015-07-05 16:33:28.451
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: Application "Editor_MWD.diagram/" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.cdo.server.app, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.ecp.application.e3.application, org.eclipse.emf.emfstore.server.application, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.jdt.core.JavaIndexer, org.eclipse.pde.build.Build, org.eclipse.pde.junit.runtime.uitestapplication, org.eclipse.pde.junit.runtime.legacytestapplication, org.eclipse.pde.junit.runtime.coretestapplication, org.eclipse.pde.junit.runtime.coretestapplicationnonmain, org.eclipse.pde.junit.runtime.nonuithreadtestapplication, org.eclipse.ui.ide.workbench, org.eclipse.uml2.ant.defineProfile, org.eclipse.uml2.uml.ecore.importer.UML2GenModel, org.eclipse.xsd.ecore.importer.XSD2GenModel, org.eclipse.emf.examples.databinding.project.ui.rcp.application, org.eclipse.emf.mwe.core.WorkflowRunner, org.eclipse.ocl.examples.standalone.ocl.
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:248)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:29)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)

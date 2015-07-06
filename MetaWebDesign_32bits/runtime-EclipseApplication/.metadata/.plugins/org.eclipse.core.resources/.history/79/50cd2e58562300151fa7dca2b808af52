@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metawebdesign="http://metawebdesign/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_r6Bj0CNTEeWEsLAxrT_p9A" type="MetaWebDesign" name="default.metawebdesign_diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_r6Bj0SNTEeWEsLAxrT_p9A"/>
+  <element xmi:type="metawebdesign:Root" href="default.metawebdesign#/"/>
+</notation:Diagram>
