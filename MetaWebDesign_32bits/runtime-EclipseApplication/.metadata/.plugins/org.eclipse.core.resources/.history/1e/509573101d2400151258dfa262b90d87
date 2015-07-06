@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metawebdesign="http://metawebdesign/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_r6Bj0CNTEeWEsLAxrT_p9A" type="MetaWebDesign" name="default.metawebdesign_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_VR2VsCNWEeWLwNjEXWZxXA" type="2004" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VR9DYCNWEeWLwNjEXWZxXA" type="5011"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_VSCi8CNWEeWLwNjEXWZxXA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VSCi8SNWEeWLwNjEXWZxXA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VSDKACNWEeWLwNjEXWZxXA"/>
+    </children>
+    <element xmi:type="metawebdesign:Class" href="default.metawebdesign#//@class.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VR28wCNWEeWLwNjEXWZxXA" x="185" y="88"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_r6Bj0SNTEeWEsLAxrT_p9A"/>
+  <element xmi:type="metawebdesign:Root" href="default.metawebdesign#/"/>
+</notation:Diagram>
