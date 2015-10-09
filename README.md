@@ -3,7 +3,9 @@
 ##GNU LINUX (Ubuntu / Mint / Debian / Trisquel)
 
 1. Download and unzip Metawebdesign installer.
-![Alt text](https://github.com/MetaWebDesign/Install/blob/master/art/1.png "Descarga")
+
+![Alt text](https://github.com/MetaWebDesign/Install/blob/master/art/1.png "Download")
+
 2. Give execute permissions to the installer with the "chmod + x install.sh" command
 ```bash
 chmod + x install.sh
